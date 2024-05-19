@@ -1,0 +1,581 @@
+
+
+
+/* food */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.h-secondary{
+    font-size: 2.7rem;
+    padding: 12px;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+}
+#services{
+    margin: 34px;
+    display: flex;
+    
+}
+
+#services .box{
+    border: 2px solid brown;
+    margin: 25px 6px;
+    padding: 34px;
+    border-radius: 28px;
+    background-color: #f57e7e;
+    margin-bottom: 20px;
+}
+
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+
+}
+#services .box p{
+    font-family: 'Crete Round', serif;
+}
+
+
+
+
+
+
+.food-h{
+    text-align: center;
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+/*  section rooms */
+#rooms-right{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    background: var(--lightbg);
+    border: 1px solid black;
+    
+}
+.paras{
+    padding:2rem;
+    
+ 
+}
+.paras form{
+    flex: 1 1 41rem;
+   
+    
+    gap:2rem;
+    
+}
+.paras form input{
+    width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  color: var(--light-black);
+  text-transform: none;
+  margin-top: 1rem;
+  border: var(--border);
+  flex-direction: row;
+}
+#room-btn{
+    display: inline-block;
+    margin-top: .8rem;
+    background: var(--earthTones);
+    color: #fff;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--earthTones);
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+#room-btn:hover{
+    background: #ffa6004f;
+    color: var(--earthTones);
+}
+
+#rooms-left{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+    
+}
+.sectionTag{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.g{
+    color: green;
+    font-weight: 700;
+}
+.r{
+    color: red;
+    font-weight: 700;
+}
+.sectionsubTag{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.font{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    color: var(--earthTones);
+}
+#rooms-left .thumbnail img{
+    width: 700px;
+}
+
+.thumbnail img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s linear;
+}
+
+
+
+
+
+
+
+/* room.php */
+#room-home{
+    overflow: hidden;
+}
+#room-home figure{
+     position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite; 
+   
+}
+#room-home figure img{
+     width: 20%;
+    float: left; 
+    height: 550px;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+#rooms-right{
+  margin-top: 100px;
+}
+
+/* Food.php */
+.container{
+    /* width: 100%; */
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    justify-content: center;
+   
+}
+.col-lg-3{
+    border: 1px solid black;
+    background: var(--earthTones);
+    margin: 30px;
+    height: 330px;
+    width: 250px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.card-title{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.card-text{
+    font-size: 18px;
+    padding-top: 5px;
+}
+.btnn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--light-black);
+    color: #fff;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--light-black);
+    cursor: pointer;
+    font-size: 1.7rem;
+    
+}
+/* Cart page */
+
+.containerr::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+   
+    z-index: -1;
+}
+.col-lg-12{
+    /* width: 100%; */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'poppins', sans-serif;
+}
+.col-lg-12 h1{
+    text-align: center;
+    background:rgba(212, 212, 212, 0.5);
+    /* color: white; */
+}
+.rowe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   
+}
+
+.col-lg-8{
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+ 
+    width: 80%;
+   
+}
+.table{
+    text-align: center;
+}
+.table tr{
+    margin-left: 100px;
+   
+}
+.table tr th{
+    padding: 15px 20px;
+    font-size: 28px;
+    font-family: 'poppins', sans-serif;
+    
+    /* color: white; */
+    
+}
+.table tr td{
+    font-size: 18px;
+    font-family: 'Heebo', sans-serif;
+    padding: 10px 0;
+    /* color: white; */
+    
+}
+.table tr td input{
+    background-color:  var(--light-black);
+    border-radius: 4px;
+    color: var(--white);
+    padding-left: 3rem;
+}
+
+.col-lg-4{
+     width: 20%;
+    margin-top: 3rem;
+    
+}
+.col-lg-4 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: var(--light-black);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+   
+    
+}
+
+.col-lg-4 h3{
+    font-size: 28px;
+}
+.col-lg-4 h5{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--earthTones);
+    color: #fff;
+    padding: .6rem 2.5rem;
+    border: .2rem solid var(--earthTones);
+    cursor: pointer;
+    font-size: 1.7rem;
+  
+}
+
+
+
+/* room.php */
+.room-h2{
+    margin-top: 24px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#f1 form table{
+    margin-left: 50px;
+    border: 1px solid red;
+   display: flex;
+   justify-content: center;
+   width: 38%;
+  border-radius: 10px;
+  padding: 10px;
+}
+#f1 form{
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    
+}
+#f1 form table tr th{
+    font-size: 20px;
+    font-weight: 700;
+}
+#f1 form table tr td input{
+    font-size: 16px;
+    font-weight: 700;
+}
+#check-btn{
+    padding: 4px;
+    background-color: crimson;
+    color: white;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+
+
+/* about */
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 90%;
+    height: 1000px;
+    background-color: brown;
+    border-radius: 30px;
+
+}
+.about{
+    display: flex;
+    margin: 30px;
+}
+.about1 img{
+    border-radius: 10px;
+    padding-right: 30px;
+    width: 700px;
+}
+.about-h1{
+    text-align: center;
+    
+    padding-bottom: 7px;
+}
+.about-p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.about2 .h1{
+    background-color: rgb(209, 52, 52);
+    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:6px;
+  margin-bottom: 20px;
+}
+.about-box-1{
+    display: flex;
+}
+.box1{
+    border: 3px solid black;
+    margin: 25px;
+    border-radius: 20px;
+}
+.box1-img img{
+    width: 350px;
+    padding: 20px;
+}
+.box1-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1-text-h1{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.box1-text-h1 a{
+    text-decoration: none;
+    color: white;
+}
+.box1-text-p{
+    padding: 4px 0;
+
+}
+.box1-text-p ul li{
+    padding: 3px 0;
+    font-size: 17px;
+}
+
+
+
+/* login */
+.popup-container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.popup-container .popup{
+    background-color: #f0f0f0;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px 25px 30px 25px;
+}
+.popup-container .popup h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #30475e;
+}
+.popup-container .popup h2{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 18px;
+    font-weight: 550;
+    color: #797775;
+}
+
+.popup-container .popup input{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #30475e;
+    border-radius: 0px;
+    padding: 5px 0;
+    font-weight: 550;
+    font-size: 14px;
+    outline: none;
+}
+.popup-container .popup .login-btn,.popup-container .register .register-btn , .popup-container .forgot button.reset-btn{
+    font-weight: 550;
+    font-size: 15px;
+    color: white;
+    background-color: #30475e;
+    color: white;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+.popup-container .popup .forgot-btn{
+    text-align: right;
+}
+.popup-container .popup .forgot-btn button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-weight: 450;
+    cursor: pointer;
+}
+#forgot-popup{
+    /* display: flex; */
+}
+
+.popup-container .register{
+    background-color: #edeef7;
+}
+.popup-container .register h2 , .popup-container .forgot h2{
+    color: #fa9579;
+}
+.popup-container .register input , .popup-container .forgot input{
+    border-bottom-color: #fa9579;
+}
+.popup-container .register .register-btn , .popup-container .forgot button.reset-btn{
+    background-color: #fa9579;
+}
+
+.user{
+    color: #30475e;
+    background-color: #75cfb8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.user a{
+    color: #30475e;
+}
+

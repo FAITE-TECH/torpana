@@ -1,0 +1,107 @@
+.home-about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home-about .image {
+  flex: 1 1 41rem;
+}
+.home-about .image img {
+  width: 100%;
+}
+
+.home-about .content {
+  flex: 1 1 40rem;
+  padding: 3rem;
+  background: var(--lightbg);
+}
+.home-about .content h3 {
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.home-about .content p {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  line-height: 2;
+  color: var(--black);
+  text-align: justify;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.about .image {
+  flex: 1 1 41rem;
+}
+.about .content {
+  flex: 1 1 40rem;
+  text-align: center;
+}
+.about .content h3 {
+  font-size: 3rem;
+  color: var(--black);
+}
+.about .content p {
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  line-height: 2;
+  color: var(--black);
+  text-align: justify;
+}
+.about .content .icons-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-end;
+}
+.about .content .icons-container .icons {
+  background: var(--lightbg);
+  padding: 2rem;
+  flex: 1 1 16rem;
+}
+.about .content .icons-container .icons i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: var(--earthTones);
+}
+.about .content .icons-container .icons span {
+  font-size: 1.2rem;
+  color: var(--light-black);
+  display: block;
+}
+
+
+.swiper-slide {
+  background: var(--lightbg);
+}
+
+.swiper-slide img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+
+.swiper-slide h3 {
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.swiper-slide span {
+  font-size: 1.5rem;
+  color: var(--earthTones);
+  display: block;
+}
+
+.swiper-slide p {
+  font-size: 1.5rem;
+  color: var(--light-black);
+  line-height: 2;
+  padding: 1rem 0;
+}
